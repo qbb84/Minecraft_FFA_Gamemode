@@ -1,0 +1,9 @@
+
+
+
+ - On kill/death event. Fireworks + currency. (- or add)
+ - Gui storing kits that purchaseable via currency.
+ - Scoreboard containing title + kills + currency.
+ - Custom Messages on death + kill.
+ - //Maybe command signs.
+ - //Maybe for future update an item that drops for the killer that gives a Who he killed and player name. (Might add currency into it)

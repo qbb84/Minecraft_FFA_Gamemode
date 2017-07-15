@@ -1,0 +1,65 @@
+package me.r.Minigame.Mains;
+
+import org.bukkit.Effect;
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.material.RedstoneTorch;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
+import org.bukkit.util.Vector;
+
+import java.util.Random;
+
+public class perkIdeas implements Listener {
+   SHOP IDEAS
+    /*
+    //Shop Snowball 1 time use.
+
+
+    public void ThrowSnowball(EntityDamageByEntityEvent e) {
+        Player p = (Player) e.getEntity();
+        Player damager = ((Player) e.getEntity()).getKiller();
+        if (e.getDamager() instanceof Snowball && e.getEntity() instanceof Player) {
+
+
+            p.setVelocity(new Vector(0, 5, 0));
+            p.getWorld().playEffect(p.getLocation(), Effect.EXPLOSION, 1);
+            p.setVelocity(new Vector(0, 3, 0).normalize().multiply(10.0));
+            ItemStack tnt = new ItemStack(Material.TNT, 1);
+            p.getInventory().setHelmet(tnt);
+            p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 500, 2));
+            p.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 500, 1));
+
+
+        }
+    }
+    PERKS IDEAS
+
+    /*More health on kill, 2 perks. Starts a +1 hearts on kill,
+    second upgrades adds 2 hearts on kill. Maybe 1/2-2
+     */
+    private int getRandom() {
+        Random random = new Random();
+        int chance = random.nextInt(2);
+        if(chance == 0){
+
+        }else if(chance == 1){
+
+        }
+
+            /*Maybe more killstreak when on a Killstreak? Which will return a random value from 0-1.
+            If the value is 0 then give the player 1 coin, if it's 1 then give them 2 coins. (MAYBE)
+
+            */
+
+
+    }
+    //More health on kill.
+
+    //EVADE PERK?
+
+
+}

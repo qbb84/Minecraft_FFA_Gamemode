@@ -1,0 +1,32 @@
+name: FFAMinigame
+main: me.r.Minigame.Main
+version: 1.0
+author: Rewind
+
+depend: [ActionBarAPI, ArmorEquipEvent, TTA]
+
+
+commands:
+    stats:
+      usage: /stats (player name)
+      description: Statistics.
+      aliases: [stat]
+    kits:
+      usage: /kits
+      description: List of kits
+      aliases: [kit]
+    resetstats:
+      usage: /resetstats (player name)
+      description: Reset yours or a player stats.
+    perks:
+      usage: /perks
+      description: Opens the perk GUI!
+      aliases: [perk]
+    addstats:
+      description: Add stats.
+    money:
+      description: MONAYYYY
+
+
+
+
